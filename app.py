@@ -9,12 +9,12 @@ import hashlib
 import time
 
 # --- CONFIGURATION & FILE PATHS ---
-DOWNLOADS_PATH = "C:/Users/Partha/Downloads"
-USER_DB_FILE = os.path.join(DOWNLOADS_PATH, 'users.csv')
-MODEL_FILE_PATH = os.path.join(DOWNLOADS_PATH, 'best_parkinsons_xgb_model.joblib')
-FEATURES_FILE_PATH = os.path.join(DOWNLOADS_PATH, 'best_model_features.joblib')
-LOGO_FILE_PATH = os.path.join(DOWNLOADS_PATH, 'ExpriMind_Logo.png.jpg')
-BACKGROUND_IMG_PATH = os.path.join(DOWNLOADS_PATH, 'ImageForNews_730480_16679535270477610.webp')
+#DOWNLOADS_PATH = "C:/Users/Partha/Downloads"
+USER_DB_FILE = os.path.join('users.csv')
+MODEL_FILE_PATH = os.path.join('best_parkinsons_xgb_model.joblib')
+FEATURES_FILE_PATH = os.path.join('best_model_features.joblib')
+LOGO_FILE_PATH = os.path.join('ExpriMind_Logo.png.jpg')
+BACKGROUND_IMG_PATH = os.path.join('ImageForNews_730480_16679535270477610.webp')
 
 # ====================================================================
 # I. UI/UTILITY FUNCTIONS
