@@ -1,0 +1,16 @@
+# --- Core web app framework ---
+streamlit==1.39.0
+
+# --- Data handling & model loading ---
+pandas==2.2.3
+numpy==1.26.4
+joblib==1.4.2
+
+# --- Utility libraries (standard but versioned for compatibility) ---
+base64io==1.0.2
+hashlib==20081119
+python-dateutil==2.9.0.post0
+
+# --- Optional (used indirectly by Streamlit or Pandas) ---
+protobuf==5.27.3
+altair==5.3.0
